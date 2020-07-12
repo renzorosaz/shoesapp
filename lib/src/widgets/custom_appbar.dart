@@ -18,8 +18,7 @@ class CustomAppBar extends StatelessWidget {
         padding:EdgeInsets.symmetric(horizontal:30),
             child: Container(
             margin:EdgeInsets.only(top:30),
-          width: double.infinity,          
-          color:Colors.green,
+          width: double.infinity,
           child:Row(
             children: [
               Text(this.texto,style: TextStyle(fontSize:30, fontWeight: FontWeight.w700)),
